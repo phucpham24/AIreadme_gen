@@ -24,7 +24,6 @@ def read_call_hierarchy_json(json_file):
     with open(json_file, 'r') as file:
         data = json.load(file)
     # Process the JSON data as needed to extract relevant information
-    # Return the relevant information
     return data  # Return the loaded JSON data
 
 # Function to generate text using OpenAI API with text splitter

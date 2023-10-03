@@ -1,77 +1,1113 @@
 {
-  "add_docstring_to_function": {
-    "name": "add_docstring_to_function",
+  "__init__": {
+    "name": "__init__",
     "type": "function",
     "calls": [
       {
-        "name": "open",
+        "name": "int",
         "type": "call",
-        "line_number": 33,
-        "column_offset": 9,
+        "line_number": 21,
+        "column_offset": 21,
         "children": []
       },
       {
-        "name": "open",
+        "name": "ValueError",
         "type": "call",
-        "line_number": 51,
-        "column_offset": 9,
+        "line_number": 28,
+        "column_offset": 18,
+        "children": []
+      },
+      {
+        "name": "ValueError",
+        "type": "call",
+        "line_number": 60,
+        "column_offset": 14,
         "children": []
       }
     ],
     "children": []
   },
-  "__init__": {
-    "name": "__init__",
+  "is_command": {
+    "name": "is_command",
     "type": "function",
     "calls": [],
     "children": []
   },
-  "ask_question": {
-    "name": "ask_question",
+  "get_commands": {
+    "name": "get_commands",
     "type": "function",
     "calls": [
       {
-        "name": "search_documents",
+        "name": "dir",
         "type": "call",
-        "line_number": 18,
+        "line_number": 34,
+        "column_offset": 20,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "get_command_completions": {
+    "name": "get_command_completions",
+    "type": "function",
+    "calls": [
+      {
+        "name": "getattr",
+        "type": "call",
+        "line_number": 42,
+        "column_offset": 33,
+        "children": []
+      },
+      {
+        "name": "cmd_completions_method",
+        "type": "call",
+        "line_number": 44,
+        "column_offset": 30,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "do_run": {
+    "name": "do_run",
+    "type": "function",
+    "calls": [
+      {
+        "name": "getattr",
+        "type": "call",
+        "line_number": 49,
+        "column_offset": 21,
+        "children": []
+      },
+      {
+        "name": "cmd_method",
+        "type": "call",
+        "line_number": 51,
+        "column_offset": 19,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "matching_commands": {
+    "name": "matching_commands",
+    "type": "function",
+    "calls": [
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 61,
+        "column_offset": 23,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "run": {
+    "name": "run",
+    "type": "function",
+    "calls": [],
+    "children": []
+  },
+  "cmd_commit": {
+    "name": "cmd_commit",
+    "type": "function",
+    "calls": [],
+    "children": []
+  },
+  "cmd_clear": {
+    "name": "cmd_clear",
+    "type": "function",
+    "calls": [],
+    "children": []
+  },
+  "cmd_tokens": {
+    "name": "cmd_tokens",
+    "type": "function",
+    "calls": [
+      {
+        "name": "dict",
+        "type": "call",
+        "line_number": 109,
+        "column_offset": 12,
+        "children": []
+      },
+      {
+        "name": "dict",
+        "type": "call",
+        "line_number": 110,
+        "column_offset": 12,
+        "children": []
+      },
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 112,
+        "column_offset": 17,
+        "children": []
+      },
+      {
+        "name": "dict",
+        "type": "call",
+        "line_number": 118,
         "column_offset": 20,
         "children": []
       },
       {
-        "name": "format_documents",
+        "name": "len",
         "type": "call",
-        "line_number": 20,
+        "line_number": 120,
+        "column_offset": 21,
+        "children": []
+      },
+      {
+        "name": "set",
+        "type": "call",
+        "line_number": 124,
+        "column_offset": 22,
+        "children": []
+      },
+      {
+        "name": "set",
+        "type": "call",
+        "line_number": 124,
+        "column_offset": 60,
+        "children": []
+      },
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 128,
+        "column_offset": 25,
+        "children": []
+      },
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 137,
+        "column_offset": 21,
+        "children": []
+      }
+    ],
+    "children": [
+      {
+        "name": "fmt",
+        "type": "function",
+        "calls": [],
+        "children": []
+      }
+    ]
+  },
+  "fmt": {
+    "name": "fmt",
+    "type": "function",
+    "calls": [
+      {
+        "name": "format",
+        "type": "call",
+        "line_number": 147,
+        "column_offset": 19,
+        "children": []
+      },
+      {
+        "name": "int",
+        "type": "call",
+        "line_number": 147,
+        "column_offset": 26,
+        "children": []
+      },
+      {
+        "name": "max",
+        "type": "call",
+        "line_number": 149,
+        "column_offset": 20,
+        "children": []
+      },
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 149,
+        "column_offset": 24,
+        "children": []
+      },
+      {
+        "name": "fmt",
+        "type": "call",
+        "line_number": 159,
+        "column_offset": 48,
+        "children": []
+      },
+      {
+        "name": "fmt",
+        "type": "call",
+        "line_number": 162,
+        "column_offset": 50,
+        "children": []
+      },
+      {
+        "name": "fmt",
+        "type": "call",
+        "line_number": 167,
+        "column_offset": 45,
+        "children": []
+      },
+      {
+        "name": "fmt",
+        "type": "call",
+        "line_number": 170,
+        "column_offset": 29,
+        "children": []
+      },
+      {
+        "name": "fmt",
+        "type": "call",
+        "line_number": 174,
+        "column_offset": 44,
+        "children": []
+      },
+      {
+        "name": "fmt",
+        "type": "call",
+        "line_number": 175,
+        "column_offset": 41,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "cmd_undo": {
+    "name": "cmd_undo",
+    "type": "function",
+    "calls": [],
+    "children": []
+  },
+  "cmd_diff": {
+    "name": "cmd_diff",
+    "type": "function",
+    "calls": [
+      {
+        "name": "print",
+        "type": "call",
+        "line_number": 241,
+        "column_offset": 8,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "completions_add": {
+    "name": "completions_add",
+    "type": "function",
+    "calls": [
+      {
+        "name": "set",
+        "type": "call",
+        "line_number": 244,
+        "column_offset": 16,
+        "children": []
+      },
+      {
+        "name": "set",
+        "type": "call",
+        "line_number": 245,
+        "column_offset": 24,
+        "children": []
+      },
+      {
+        "name": "Completion",
+        "type": "call",
+        "line_number": 248,
+        "column_offset": 22,
+        "children": []
+      },
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 248,
+        "column_offset": 56,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "glob_filtered_to_repo": {
+    "name": "glob_filtered_to_repo",
+    "type": "function",
+    "calls": [
+      {
+        "name": "list",
+        "type": "call",
+        "line_number": 251,
+        "column_offset": 28,
+        "children": []
+      },
+      {
+        "name": "Path",
+        "type": "call",
+        "line_number": 251,
+        "column_offset": 33,
+        "children": []
+      },
+      {
+        "name": "expand_subdir",
+        "type": "call",
+        "line_number": 255,
+        "column_offset": 29,
+        "children": []
+      },
+      {
+        "name": "str",
+        "type": "call",
+        "line_number": 257,
+        "column_offset": 25,
+        "children": []
+      },
+      {
+        "name": "Path",
+        "type": "call",
+        "line_number": 257,
+        "column_offset": 29,
+        "children": []
+      },
+      {
+        "name": "str",
+        "type": "call",
+        "line_number": 262,
+        "column_offset": 59,
+        "children": []
+      },
+      {
+        "name": "list",
+        "type": "call",
+        "line_number": 264,
+        "column_offset": 14,
+        "children": []
+      },
+      {
+        "name": "map",
+        "type": "call",
+        "line_number": 264,
+        "column_offset": 19,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "cmd_add": {
+    "name": "cmd_add",
+    "type": "function",
+    "calls": [
+      {
+        "name": "set",
+        "type": "call",
+        "line_number": 274,
+        "column_offset": 28,
+        "children": []
+      },
+      {
+        "name": "any",
+        "type": "call",
+        "line_number": 279,
+        "column_offset": 19,
+        "children": []
+      },
+      {
+        "name": "Path",
+        "type": "call",
+        "line_number": 282,
+        "column_offset": 23,
+        "children": []
+      },
+      {
+        "name": "Path",
+        "type": "call",
+        "line_number": 283,
+        "column_offset": 27,
+        "children": []
+      },
+      {
+        "name": "Path",
+        "type": "call",
+        "line_number": 290,
         "column_offset": 25,
         "children": []
       }
     ],
     "children": []
   },
-  "extract_functions_from_ctags": {
-    "name": "extract_functions_from_ctags",
+  "completions_drop": {
+    "name": "completions_drop",
     "type": "function",
     "calls": [
       {
-        "name": "open",
+        "name": "Completion",
         "type": "call",
-        "line_number": 13,
-        "column_offset": 9,
+        "line_number": 333,
+        "column_offset": 22,
         "children": []
       },
       {
         "name": "len",
         "type": "call",
-        "line_number": 16,
+        "line_number": 333,
+        "column_offset": 56,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "cmd_drop": {
+    "name": "cmd_drop",
+    "type": "function",
+    "calls": [
+      {
+        "name": "set",
+        "type": "call",
+        "line_number": 340,
+        "column_offset": 36,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "cmd_git": {
+    "name": "cmd_git",
+    "type": "function",
+    "calls": [
+      {
+        "name": "dict",
+        "type": "call",
+        "line_number": 359,
+        "column_offset": 18,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "cmd_run": {
+    "name": "cmd_run",
+    "type": "function",
+    "calls": [],
+    "children": []
+  },
+  "cmd_exit": {
+    "name": "cmd_exit",
+    "type": "function",
+    "calls": [],
+    "children": []
+  },
+  "cmd_ls": {
+    "name": "cmd_ls",
+    "type": "function",
+    "calls": [],
+    "children": []
+  },
+  "cmd_help": {
+    "name": "cmd_help",
+    "type": "function",
+    "calls": [
+      {
+        "name": "sorted",
+        "type": "call",
+        "line_number": 433,
+        "column_offset": 19,
+        "children": []
+      },
+      {
+        "name": "getattr",
+        "type": "call",
+        "line_number": 436,
+        "column_offset": 25,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "cmd_voice": {
+    "name": "cmd_voice",
+    "type": "function",
+    "calls": [
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 462,
+        "column_offset": 22,
+        "children": []
+      },
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 464,
+        "column_offset": 20,
+        "children": []
+      },
+      {
+        "name": "print",
+        "type": "call",
+        "line_number": 473,
+        "column_offset": 12,
+        "children": []
+      },
+      {
+        "name": "print",
+        "type": "call",
+        "line_number": 475,
+        "column_offset": 12,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "expand_subdir": {
+    "name": "expand_subdir",
+    "type": "function",
+    "calls": [
+      {
+        "name": "Path",
+        "type": "call",
+        "line_number": 481,
+        "column_offset": 16,
+        "children": []
+      },
+      {
+        "name": "str",
+        "type": "call",
+        "line_number": 489,
+        "column_offset": 22,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "to_tree": {
+    "name": "to_tree",
+    "type": "function",
+    "calls": [
+      {
+        "name": "sorted",
+        "type": "call",
+        "line_number": 27,
+        "column_offset": 11,
+        "children": []
+      },
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 30,
+        "column_offset": 20,
+        "children": []
+      },
+      {
+        "name": "list",
+        "type": "call",
+        "line_number": 33,
+        "column_offset": 14,
+        "children": []
+      },
+      {
+        "name": "range",
+        "type": "call",
+        "line_number": 35,
+        "column_offset": 17,
+        "children": []
+      },
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 35,
+        "column_offset": 23,
+        "children": []
+      },
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 36,
+        "column_offset": 20,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "fname_to_components": {
+    "name": "fname_to_components",
+    "type": "function",
+    "calls": [],
+    "children": []
+  },
+  "get_repo_map": {
+    "name": "get_repo_map",
+    "type": "function",
+    "calls": [
+      {
+        "name": "set",
+        "type": "call",
+        "line_number": 287,
+        "column_offset": 22,
+        "children": []
+      },
+      {
+        "name": "set",
+        "type": "call",
+        "line_number": 287,
+        "column_offset": 54,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "choose_files_listing": {
+    "name": "choose_files_listing",
+    "type": "function",
+    "calls": [],
+    "children": []
+  },
+  "get_simple_files_map": {
+    "name": "get_simple_files_map",
+    "type": "function",
+    "calls": [
+      {
+        "name": "fname_to_components",
+        "type": "call",
+        "line_number": 161,
+        "column_offset": 20,
+        "children": []
+      },
+      {
+        "name": "to_tree",
+        "type": "call",
+        "line_number": 164,
         "column_offset": 15,
         "children": []
       }
     ],
     "children": []
   },
-  "generate_docstring": {
-    "name": "generate_docstring",
+  "token_count": {
+    "name": "token_count",
+    "type": "function",
+    "calls": [
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 167,
+        "column_offset": 15,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "get_rel_fname": {
+    "name": "get_rel_fname",
     "type": "function",
     "calls": [],
+    "children": []
+  },
+  "split_path": {
+    "name": "split_path",
+    "type": "function",
+    "calls": [],
+    "children": []
+  },
+  "run_ctags": {
+    "name": "run_ctags",
+    "type": "function",
+    "calls": [
+      {
+        "name": "repr",
+        "type": "call",
+        "line_number": 199,
+        "column_offset": 35,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "check_for_ctags": {
+    "name": "check_for_ctags",
+    "type": "function",
+    "calls": [
+      {
+        "name": "open",
+        "type": "call",
+        "line_number": 224,
+        "column_offset": 21,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "load_tags_cache": {
+    "name": "load_tags_cache",
+    "type": "function",
+    "calls": [
+      {
+        "name": "Path",
+        "type": "call",
+        "line_number": 237,
+        "column_offset": 15,
+        "children": []
+      },
+      {
+        "name": "Cache",
+        "type": "call",
+        "line_number": 240,
+        "column_offset": 26,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "save_tags_cache": {
+    "name": "save_tags_cache",
+    "type": "function",
+    "calls": [],
+    "children": []
+  },
+  "load_ident_cache": {
+    "name": "load_ident_cache",
+    "type": "function",
+    "calls": [
+      {
+        "name": "Path",
+        "type": "call",
+        "line_number": 246,
+        "column_offset": 15,
+        "children": []
+      },
+      {
+        "name": "Cache",
+        "type": "call",
+        "line_number": 249,
+        "column_offset": 27,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "save_ident_cache": {
+    "name": "save_ident_cache",
+    "type": "function",
+    "calls": [],
+    "children": []
+  },
+  "get_mtime": {
+    "name": "get_mtime",
+    "type": "function",
+    "calls": [],
+    "children": []
+  },
+  "get_name_identifiers": {
+    "name": "get_name_identifiers",
+    "type": "function",
+    "calls": [
+      {
+        "name": "set",
+        "type": "call",
+        "line_number": 263,
+        "column_offset": 19,
+        "children": []
+      },
+      {
+        "name": "set",
+        "type": "call",
+        "line_number": 274,
+        "column_offset": 21,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "get_name_identifiers_uncached": {
+    "name": "get_name_identifiers_uncached",
+    "type": "function",
+    "calls": [
+      {
+        "name": "list",
+        "type": "call",
+        "line_number": 280,
+        "column_offset": 19,
+        "children": []
+      },
+      {
+        "name": "guess_lexer_for_filename",
+        "type": "call",
+        "line_number": 283,
+        "column_offset": 20,
+        "children": []
+      },
+      {
+        "name": "list",
+        "type": "call",
+        "line_number": 285,
+        "column_offset": 19,
+        "children": []
+      },
+      {
+        "name": "list",
+        "type": "call",
+        "line_number": 288,
+        "column_offset": 17,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "get_ranked_tags": {
+    "name": "get_ranked_tags",
+    "type": "function",
+    "calls": [
+      {
+        "name": "defaultdict",
+        "type": "call",
+        "line_number": 293,
+        "column_offset": 18,
+        "children": []
+      },
+      {
+        "name": "defaultdict",
+        "type": "call",
+        "line_number": 294,
+        "column_offset": 21,
+        "children": []
+      },
+      {
+        "name": "defaultdict",
+        "type": "call",
+        "line_number": 295,
+        "column_offset": 22,
+        "children": []
+      },
+      {
+        "name": "dict",
+        "type": "call",
+        "line_number": 297,
+        "column_offset": 26,
+        "children": []
+      },
+      {
+        "name": "set",
+        "type": "call",
+        "line_number": 299,
+        "column_offset": 17,
+        "children": []
+      },
+      {
+        "name": "set",
+        "type": "call",
+        "line_number": 299,
+        "column_offset": 40,
+        "children": []
+      },
+      {
+        "name": "set",
+        "type": "call",
+        "line_number": 300,
+        "column_offset": 26,
+        "children": []
+      },
+      {
+        "name": "sorted",
+        "type": "call",
+        "line_number": 302,
+        "column_offset": 17,
+        "children": []
+      },
+      {
+        "name": "tqdm",
+        "type": "call",
+        "line_number": 305,
+        "column_offset": 21,
+        "children": []
+      },
+      {
+        "name": "Path",
+        "type": "call",
+        "line_number": 309,
+        "column_offset": 19,
+        "children": []
+      },
+      {
+        "name": "tuple",
+        "type": "call",
+        "line_number": 341,
+        "column_offset": 37,
+        "children": []
+      },
+      {
+        "name": "set",
+        "type": "call",
+        "line_number": 349,
+        "column_offset": 17,
+        "children": []
+      },
+      {
+        "name": "set",
+        "type": "call",
+        "line_number": 349,
+        "column_offset": 50,
+        "children": []
+      },
+      {
+        "name": "Counter",
+        "type": "call",
+        "line_number": 355,
+        "column_offset": 40,
+        "children": []
+      },
+      {
+        "name": "dict",
+        "type": "call",
+        "line_number": 362,
+        "column_offset": 24,
+        "children": []
+      },
+      {
+        "name": "dict",
+        "type": "call",
+        "line_number": 364,
+        "column_offset": 24,
+        "children": []
+      },
+      {
+        "name": "defaultdict",
+        "type": "call",
+        "line_number": 372,
+        "column_offset": 29,
+        "children": []
+      },
+      {
+        "name": "sum",
+        "type": "call",
+        "line_number": 375,
+        "column_offset": 27,
+        "children": []
+      },
+      {
+        "name": "sorted",
+        "type": "call",
+        "line_number": 383,
+        "column_offset": 29,
+        "children": []
+      },
+      {
+        "name": "list",
+        "type": "call",
+        "line_number": 388,
+        "column_offset": 27,
+        "children": []
+      },
+      {
+        "name": "set",
+        "type": "call",
+        "line_number": 390,
+        "column_offset": 40,
+        "children": []
+      },
+      {
+        "name": "set",
+        "type": "call",
+        "line_number": 394,
+        "column_offset": 34,
+        "children": []
+      },
+      {
+        "name": "sorted",
+        "type": "call",
+        "line_number": 396,
+        "column_offset": 19,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "get_ranked_tags_map": {
+    "name": "get_ranked_tags_map",
+    "type": "function",
+    "calls": [
+      {
+        "name": "list",
+        "type": "call",
+        "line_number": 410,
+        "column_offset": 27,
+        "children": []
+      },
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 413,
+        "column_offset": 19,
+        "children": []
+      },
+      {
+        "name": "to_tree",
+        "type": "call",
+        "line_number": 421,
+        "column_offset": 19,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "find_py_files": {
+    "name": "find_py_files",
+    "type": "function",
+    "calls": [],
+    "children": []
+  },
+  "get_random_color": {
+    "name": "get_random_color",
+    "type": "function",
+    "calls": [
+      {
+        "name": "int",
+        "type": "call",
+        "line_number": 448,
+        "column_offset": 15,
+        "children": []
+      },
+      {
+        "name": "find_py_files",
+        "type": "call",
+        "line_number": 460,
+        "column_offset": 28,
+        "children": []
+      },
+      {
+        "name": "find_py_files",
+        "type": "call",
+        "line_number": 462,
+        "column_offset": 27,
+        "children": []
+      },
+      {
+        "name": "RepoMap",
+        "type": "call",
+        "line_number": 466,
+        "column_offset": 9,
+        "children": []
+      },
+      {
+        "name": "dump",
+        "type": "call",
+        "line_number": 469,
+        "column_offset": 4,
+        "children": []
+      },
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 469,
+        "column_offset": 9,
+        "children": []
+      },
+      {
+        "name": "print",
+        "type": "call",
+        "line_number": 470,
+        "column_offset": 4,
+        "children": []
+      }
+    ],
     "children": []
   },
   "main": {
@@ -79,162 +1115,240 @@
     "type": "function",
     "calls": [
       {
-        "name": "input",
+        "name": "open",
         "type": "call",
-        "line_number": 21,
+        "line_number": 100,
+        "column_offset": 9,
+        "children": []
+      },
+      {
+        "name": "dict",
+        "type": "call",
+        "line_number": 117,
+        "column_offset": 36,
+        "children": []
+      },
+      {
+        "name": "dict",
+        "type": "call",
+        "line_number": 122,
+        "column_offset": 32,
+        "children": []
+      },
+      {
+        "name": "ChatSummary",
+        "type": "call",
+        "line_number": 127,
         "column_offset": 17,
         "children": []
       },
       {
-        "name": "print",
+        "name": "dump",
         "type": "call",
-        "line_number": 23,
+        "line_number": 129,
         "column_offset": 4,
         "children": []
       },
       {
-        "name": "clone_github_repo",
+        "name": "main",
         "type": "call",
-        "line_number": 25,
-        "column_offset": 11,
+        "line_number": 133,
+        "column_offset": 4,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "create_progress_bar": {
+    "name": "create_progress_bar",
+    "type": "function",
+    "calls": [
+      {
+        "name": "int",
+        "type": "call",
+        "line_number": 30,
+        "column_offset": 20,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "assert_newlines": {
+    "name": "assert_newlines",
+    "type": "function",
+    "calls": [],
+    "children": []
+  },
+  "diff_partial_update": {
+    "name": "diff_partial_update",
+    "type": "function",
+    "calls": [
+      {
+        "name": "assert_newlines",
+        "type": "call",
+        "line_number": 53,
+        "column_offset": 4,
         "children": []
       },
       {
-        "name": "load_and_index_files",
+        "name": "assert_newlines",
         "type": "call",
-        "line_number": 26,
-        "column_offset": 60,
+        "line_number": 54,
+        "column_offset": 4,
         "children": []
       },
       {
-        "name": "print",
+        "name": "len",
         "type": "call",
-        "line_number": 28,
-        "column_offset": 16,
-        "children": []
-      },
-      {
-        "name": "exit",
-        "type": "call",
-        "line_number": 29,
-        "column_offset": 16,
-        "children": []
-      },
-      {
-        "name": "print",
-        "type": "call",
-        "line_number": 31,
-        "column_offset": 12,
-        "children": []
-      },
-      {
-        "name": "OpenAI",
-        "type": "call",
-        "line_number": 32,
-        "column_offset": 18,
-        "children": []
-      },
-      {
-        "name": "PromptTemplate",
-        "type": "call",
-        "line_number": 49,
+        "line_number": 56,
         "column_offset": 21,
         "children": []
       },
       {
-        "name": "LLMChain",
+        "name": "find_last_non_deleted",
         "type": "call",
-        "line_number": 54,
-        "column_offset": 24,
+        "line_number": 61,
+        "column_offset": 27,
         "children": []
       },
       {
-        "name": "QuestionContext",
+        "name": "create_progress_bar",
         "type": "call",
-        "line_number": 57,
-        "column_offset": 31,
+        "line_number": 71,
+        "column_offset": 10,
         "children": []
       },
       {
-        "name": "input",
+        "name": "list",
         "type": "call",
-        "line_number": 60,
-        "column_offset": 36,
+        "line_number": 81,
+        "column_offset": 11,
         "children": []
       },
       {
-        "name": "print",
+        "name": "range",
         "type": "call",
-        "line_number": 63,
-        "column_offset": 20,
-        "children": []
-      },
-      {
-        "name": "format_user_question",
-        "type": "call",
-        "line_number": 64,
-        "column_offset": 36,
-        "children": []
-      },
-      {
-        "name": "ask_question",
-        "type": "call",
-        "line_number": 66,
-        "column_offset": 29,
-        "children": []
-      },
-      {
-        "name": "print",
-        "type": "call",
-        "line_number": 67,
-        "column_offset": 20,
-        "children": []
-      },
-      {
-        "name": "print",
-        "type": "call",
-        "line_number": 70,
-        "column_offset": 20,
-        "children": []
-      },
-      {
-        "name": "print",
-        "type": "call",
-        "line_number": 74,
-        "column_offset": 12,
+        "line_number": 87,
+        "column_offset": 13,
         "children": []
       }
     ],
     "children": []
   },
-  "clean_and_tokenize": {
-    "name": "clean_and_tokenize",
-    "type": "function",
-    "calls": [],
-    "children": []
-  },
-  "format_documents": {
-    "name": "format_documents",
+  "find_last_non_deleted": {
+    "name": "find_last_non_deleted",
     "type": "function",
     "calls": [
       {
-        "name": "enumerate",
+        "name": "list",
         "type": "call",
-        "line_number": 20,
-        "column_offset": 118,
+        "line_number": 107,
+        "column_offset": 11,
+        "children": []
+      },
+      {
+        "name": "main",
+        "type": "call",
+        "line_number": 129,
+        "column_offset": 4,
         "children": []
       }
     ],
     "children": []
   },
-  "format_user_question": {
-    "name": "format_user_question",
+  "check_version": {
+    "name": "check_version",
     "type": "function",
-    "calls": [],
+    "calls": [
+      {
+        "name": "print_cmd",
+        "type": "call",
+        "line_number": 19,
+        "column_offset": 8,
+        "children": []
+      },
+      {
+        "name": "print_cmd",
+        "type": "call",
+        "line_number": 21,
+        "column_offset": 8,
+        "children": []
+      },
+      {
+        "name": "print_cmd",
+        "type": "call",
+        "line_number": 23,
+        "column_offset": 8,
+        "children": []
+      },
+      {
+        "name": "check_version",
+        "type": "call",
+        "line_number": 27,
+        "column_offset": 4,
+        "children": []
+      }
+    ],
     "children": []
   },
-  "build_hierarchy": {
-    "name": "build_hierarchy",
+  "safe_abs_path": {
+    "name": "safe_abs_path",
+    "type": "function",
+    "calls": [
+      {
+        "name": "Path",
+        "type": "call",
+        "line_number": 8,
+        "column_offset": 10,
+        "children": []
+      },
+      {
+        "name": "str",
+        "type": "call",
+        "line_number": 9,
+        "column_offset": 11,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "show_messages": {
+    "name": "show_messages",
+    "type": "function",
+    "calls": [
+      {
+        "name": "print",
+        "type": "call",
+        "line_number": 14,
+        "column_offset": 8,
+        "children": []
+      },
+      {
+        "name": "print",
+        "type": "call",
+        "line_number": 21,
+        "column_offset": 16,
+        "children": []
+      },
+      {
+        "name": "print",
+        "type": "call",
+        "line_number": 24,
+        "column_offset": 12,
+        "children": []
+      },
+      {
+        "name": "dump",
+        "type": "call",
+        "line_number": 27,
+        "column_offset": 8,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "cvt": {
+    "name": "cvt",
     "type": "function",
     "calls": [
       {
@@ -245,223 +1359,2438 @@
         "children": []
       },
       {
-        "name": "build_hierarchy",
+        "name": "str",
         "type": "call",
         "line_number": 11,
-        "column_offset": 25,
-        "children": []
-      },
-      {
-        "name": "isinstance",
-        "type": "call",
-        "line_number": 11,
-        "column_offset": 74,
-        "children": []
-      },
-      {
-        "name": "isinstance",
-        "type": "call",
-        "line_number": 13,
-        "column_offset": 9,
-        "children": []
-      },
-      {
-        "name": "hasattr",
-        "type": "call",
-        "line_number": 13,
-        "column_offset": 40,
+        "column_offset": 15,
         "children": []
       }
     ],
     "children": []
   },
-  "visit_FunctionDef": {
-    "name": "visit_FunctionDef",
+  "dump": {
+    "name": "dump",
     "type": "function",
     "calls": [
       {
-        "name": "build_hierarchy",
+        "name": "cvt",
         "type": "call",
-        "line_number": 30,
-        "column_offset": 53,
-        "children": []
-      }
-    ],
-    "children": []
-  },
-  "visit_Call": {
-    "name": "visit_Call",
-    "type": "function",
-    "calls": [
-      {
-        "name": "hasattr",
-        "type": "call",
-        "line_number": 34,
-        "column_offset": 11,
+        "line_number": 23,
+        "column_offset": 12,
         "children": []
       },
       {
-        "name": "build_hierarchy",
+        "name": "sum",
         "type": "call",
-        "line_number": 35,
-        "column_offset": 24,
+        "line_number": 24,
+        "column_offset": 18,
         "children": []
       },
-      {
-        "name": "open",
-        "type": "call",
-        "line_number": 53,
-        "column_offset": 17,
-        "children": []
-      },
-      {
-        "name": "CallHierarchyVisitor",
-        "type": "call",
-        "line_number": 59,
-        "column_offset": 22,
-        "children": []
-      },
-      {
-        "name": "open",
-        "type": "call",
-        "line_number": 69,
-        "column_offset": 5,
-        "children": []
-      }
-    ],
-    "children": []
-  },
-  "clone_github_repo": {
-    "name": "clone_github_repo",
-    "type": "function",
-    "calls": [
       {
         "name": "print",
         "type": "call",
-        "line_number": 17,
+        "line_number": 26,
+        "column_offset": 8,
+        "children": []
+      },
+      {
+        "name": "print",
+        "type": "call",
+        "line_number": 27,
+        "column_offset": 8,
+        "children": []
+      },
+      {
+        "name": "print",
+        "type": "call",
+        "line_number": 29,
         "column_offset": 8,
         "children": []
       }
     ],
     "children": []
   },
-  "load_and_index_files": {
-    "name": "load_and_index_files",
+  "commit": {
+    "name": "commit",
     "type": "function",
     "calls": [
       {
-        "name": "NotebookLoader",
-        "type": "call",
-        "line_number": 31,
-        "column_offset": 25,
-        "children": []
-      },
-      {
         "name": "str",
         "type": "call",
-        "line_number": 31,
-        "column_offset": 40,
+        "line_number": 77,
+        "column_offset": 22,
         "children": []
-      },
-      {
-        "name": "DirectoryLoader",
-        "type": "call",
-        "line_number": 33,
-        "column_offset": 25,
-        "children": []
-      },
-      {
-        "name": "callable",
-        "type": "call",
-        "line_number": 35,
-        "column_offset": 48,
-        "children": []
-      },
+      }
+    ],
+    "children": []
+  },
+  "get_rel_repo_dir": {
+    "name": "get_rel_repo_dir",
+    "type": "function",
+    "calls": [],
+    "children": []
+  },
+  "get_commit_message": {
+    "name": "get_commit_message",
+    "type": "function",
+    "calls": [
       {
         "name": "len",
         "type": "call",
-        "line_number": 37,
-        "column_offset": 40,
+        "line_number": 97,
+        "column_offset": 11,
         "children": []
       },
       {
-        "name": "str",
+        "name": "dict",
         "type": "call",
-        "line_number": 41,
-        "column_offset": 30,
-        "children": []
-      },
-      {
-        "name": "print",
-        "type": "call",
-        "line_number": 47,
+        "line_number": 111,
         "column_offset": 12,
         "children": []
       },
       {
-        "name": "RecursiveCharacterTextSplitter",
+        "name": "dict",
         "type": "call",
-        "line_number": 50,
-        "column_offset": 20,
+        "line_number": 112,
+        "column_offset": 12,
         "children": []
       },
       {
-        "name": "clean_and_tokenize",
+        "name": "simple_send_with_retries",
         "type": "call",
-        "line_number": 63,
+        "line_number": 116,
+        "column_offset": 29,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "get_diffs": {
+    "name": "get_diffs",
+    "type": "function",
+    "calls": [
+      {
+        "name": "any",
+        "type": "call",
+        "line_number": 134,
+        "column_offset": 41,
+        "children": []
+      },
+      {
+        "name": "list",
+        "type": "call",
+        "line_number": 147,
+        "column_offset": 36,
+        "children": []
+      },
+      {
+        "name": "list",
+        "type": "call",
+        "line_number": 151,
+        "column_offset": 27,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "diff_commits": {
+    "name": "diff_commits",
+    "type": "function",
+    "calls": [],
+    "children": []
+  },
+  "get_tracked_files": {
+    "name": "get_tracked_files",
+    "type": "function",
+    "calls": [
+      {
+        "name": "set",
+        "type": "call",
+        "line_number": 191,
+        "column_offset": 14,
+        "children": []
+      },
+      {
+        "name": "str",
+        "type": "call",
+        "line_number": 192,
+        "column_offset": 12,
+        "children": []
+      },
+      {
+        "name": "Path",
+        "type": "call",
+        "line_number": 192,
+        "column_offset": 16,
+        "children": []
+      },
+      {
+        "name": "PurePosixPath",
+        "type": "call",
+        "line_number": 192,
+        "column_offset": 21,
+        "children": []
+      },
+      {
+        "name": "Path",
+        "type": "call",
+        "line_number": 192,
+        "column_offset": 36,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "path_in_repo": {
+    "name": "path_in_repo",
+    "type": "function",
+    "calls": [
+      {
+        "name": "set",
+        "type": "call",
+        "line_number": 202,
+        "column_offset": 24,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "abs_root_path": {
+    "name": "abs_root_path",
+    "type": "function",
+    "calls": [
+      {
+        "name": "Path",
+        "type": "call",
+        "line_number": 221,
+        "column_offset": 14,
+        "children": []
+      },
+      {
+        "name": "wrap_fence",
+        "type": "call",
+        "line_number": 226,
+        "column_offset": 8,
+        "children": []
+      },
+      {
+        "name": "wrap_fence",
+        "type": "call",
+        "line_number": 227,
+        "column_offset": 8,
+        "children": []
+      },
+      {
+        "name": "wrap_fence",
+        "type": "call",
+        "line_number": 228,
+        "column_offset": 8,
+        "children": []
+      },
+      {
+        "name": "wrap_fence",
+        "type": "call",
+        "line_number": 229,
+        "column_offset": 8,
+        "children": []
+      },
+      {
+        "name": "wrap_fence",
+        "type": "call",
+        "line_number": 230,
+        "column_offset": 8,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "is_dirty": {
+    "name": "is_dirty",
+    "type": "function",
+    "calls": [],
+    "children": []
+  },
+  "get_git_root": {
+    "name": "get_git_root",
+    "type": "function",
+    "calls": [],
+    "children": []
+  },
+  "guessed_wrong_repo": {
+    "name": "guessed_wrong_repo",
+    "type": "function",
+    "calls": [
+      {
+        "name": "Path",
+        "type": "call",
+        "line_number": 32,
+        "column_offset": 21,
+        "children": []
+      },
+      {
+        "name": "GitRepo",
+        "type": "call",
+        "line_number": 32,
+        "column_offset": 26,
+        "children": []
+      },
+      {
+        "name": "str",
+        "type": "call",
+        "line_number": 38,
+        "column_offset": 15,
+        "children": []
+      },
+      {
+        "name": "Path",
+        "type": "call",
+        "line_number": 40,
+        "column_offset": 15,
+        "children": []
+      },
+      {
+        "name": "str",
+        "type": "call",
+        "line_number": 44,
+        "column_offset": 11,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "setup_git": {
+    "name": "setup_git",
+    "type": "function",
+    "calls": [
+      {
+        "name": "str",
+        "type": "call",
+        "line_number": 54,
+        "column_offset": 15,
+        "children": []
+      },
+      {
+        "name": "check_gitignore",
+        "type": "call",
+        "line_number": 56,
+        "column_offset": 4,
+        "children": []
+      },
+      {
+        "name": "str",
+        "type": "call",
+        "line_number": 59,
+        "column_offset": 45,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "check_gitignore": {
+    "name": "check_gitignore",
+    "type": "function",
+    "calls": [
+      {
+        "name": "Path",
+        "type": "call",
+        "line_number": 86,
+        "column_offset": 21,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "scrub_sensitive_info": {
+    "name": "scrub_sensitive_info",
+    "type": "function",
+    "calls": [
+      {
+        "name": "scrub_sensitive_info",
+        "type": "call",
+        "line_number": 453,
+        "column_offset": 15,
+        "children": []
+      },
+      {
+        "name": "sorted",
+        "type": "call",
+        "line_number": 456,
+        "column_offset": 24,
+        "children": []
+      },
+      {
+        "name": "vars",
+        "type": "call",
+        "line_number": 456,
         "column_offset": 31,
         "children": []
       },
       {
-        "name": "BM25Okapi",
+        "name": "scrub_sensitive_info",
         "type": "call",
-        "line_number": 64,
+        "line_number": 457,
+        "column_offset": 41,
+        "children": []
+      },
+      {
+        "name": "str",
+        "type": "call",
+        "line_number": 457,
+        "column_offset": 62,
+        "children": []
+      },
+      {
+        "name": "getattr",
+        "type": "call",
+        "line_number": 475,
+        "column_offset": 14,
+        "children": []
+      },
+      {
+        "name": "setattr",
+        "type": "call",
+        "line_number": 478,
+        "column_offset": 12,
+        "children": []
+      },
+      {
+        "name": "str",
+        "type": "call",
+        "line_number": 506,
+        "column_offset": 22,
+        "children": []
+      },
+      {
+        "name": "main",
+        "type": "call",
+        "line_number": 533,
+        "column_offset": 13,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "too_big": {
+    "name": "too_big",
+    "type": "function",
+    "calls": [
+      {
+        "name": "sum",
+        "type": "call",
+        "line_number": 17,
         "column_offset": 16,
         "children": []
       }
     ],
     "children": []
   },
-  "search_documents": {
-    "name": "search_documents",
+  "tokenize": {
+    "name": "tokenize",
     "type": "function",
     "calls": [
       {
-        "name": "clean_and_tokenize",
+        "name": "len",
+        "type": "call",
+        "line_number": 23,
+        "column_offset": 21,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "summarize": {
+    "name": "summarize",
+    "type": "function",
+    "calls": [
+      {
+        "name": "sum",
+        "type": "call",
+        "line_number": 29,
+        "column_offset": 16,
+        "children": []
+      },
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 34,
+        "column_offset": 11,
+        "children": []
+      },
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 38,
+        "column_offset": 22,
+        "children": []
+      },
+      {
+        "name": "range",
+        "type": "call",
+        "line_number": 42,
+        "column_offset": 17,
+        "children": []
+      },
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 42,
+        "column_offset": 23,
+        "children": []
+      },
+      {
+        "name": "sum",
+        "type": "call",
+        "line_number": 62,
+        "column_offset": 22,
+        "children": []
+      },
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 63,
+        "column_offset": 25,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "summarize_all": {
+    "name": "summarize_all",
+    "type": "function",
+    "calls": [
+      {
+        "name": "dict",
+        "type": "call",
+        "line_number": 83,
+        "column_offset": 12,
+        "children": []
+      },
+      {
+        "name": "dict",
+        "type": "call",
+        "line_number": 84,
+        "column_offset": 12,
+        "children": []
+      },
+      {
+        "name": "simple_send_with_retries",
+        "type": "call",
+        "line_number": 87,
+        "column_offset": 18,
+        "children": []
+      },
+      {
+        "name": "ValueError",
+        "type": "call",
+        "line_number": 89,
+        "column_offset": 18,
+        "children": []
+      },
+      {
+        "name": "dict",
+        "type": "call",
+        "line_number": 92,
+        "column_offset": 16,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "send_with_retries": {
+    "name": "send_with_retries",
+    "type": "function",
+    "calls": [
+      {
+        "name": "dict",
+        "type": "call",
+        "line_number": 38,
+        "column_offset": 13,
+        "children": []
+      },
+      {
+        "name": "hasattr",
+        "type": "call",
+        "line_number": 48,
+        "column_offset": 7,
+        "children": []
+      },
+      {
+        "name": "hasattr",
+        "type": "call",
+        "line_number": 50,
+        "column_offset": 7,
+        "children": []
+      },
+      {
+        "name": "print",
+        "type": "call",
+        "line_number": 33,
+        "column_offset": 31,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "simple_send_with_retries": {
+    "name": "simple_send_with_retries",
+    "type": "function",
+    "calls": [
+      {
+        "name": "send_with_retries",
+        "type": "call",
+        "line_number": 74,
+        "column_offset": 26,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "get_completions": {
+    "name": "get_completions",
+    "type": "function",
+    "calls": [
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 63,
+        "column_offset": 15,
+        "children": []
+      },
+      {
+        "name": "set",
+        "type": "call",
+        "line_number": 72,
+        "column_offset": 30,
+        "children": []
+      },
+      {
+        "name": "Completion",
+        "type": "call",
+        "line_number": 81,
+        "column_offset": 30,
+        "children": []
+      },
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 82,
+        "column_offset": 62,
+        "children": []
+      },
+      {
+        "name": "Completion",
+        "type": "call",
+        "line_number": 85,
+        "column_offset": 26,
+        "children": []
+      },
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 86,
+        "column_offset": 53,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "read_text": {
+    "name": "read_text",
+    "type": "function",
+    "calls": [
+      {
+        "name": "open",
+        "type": "call",
+        "line_number": 144,
+        "column_offset": 17,
+        "children": []
+      },
+      {
+        "name": "str",
+        "type": "call",
+        "line_number": 144,
+        "column_offset": 22,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "write_text": {
+    "name": "write_text",
+    "type": "function",
+    "calls": [
+      {
+        "name": "open",
+        "type": "call",
+        "line_number": 157,
+        "column_offset": 13,
+        "children": []
+      },
+      {
+        "name": "str",
+        "type": "call",
+        "line_number": 157,
+        "column_offset": 18,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "get_input": {
+    "name": "get_input",
+    "type": "function",
+    "calls": [
+      {
+        "name": "dict",
+        "type": "call",
+        "line_number": 162,
+        "column_offset": 20,
+        "children": []
+      },
+      {
+        "name": "dict",
+        "type": "call",
+        "line_number": 162,
+        "column_offset": 84,
+        "children": []
+      },
+      {
+        "name": "print",
+        "type": "call",
+        "line_number": 165,
+        "column_offset": 12,
+        "children": []
+      },
+      {
+        "name": "list",
+        "type": "call",
+        "line_number": 167,
+        "column_offset": 21,
+        "children": []
+      },
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 169,
+        "column_offset": 11,
+        "children": []
+      },
+      {
+        "name": "AutoCompleter",
+        "type": "call",
+        "line_number": 187,
+        "column_offset": 33,
+        "children": []
+      },
+      {
+        "name": "PygmentsLexer",
+        "type": "call",
+        "line_number": 200,
+        "column_offset": 25,
+        "children": []
+      },
+      {
+        "name": "FileHistory",
+        "type": "call",
+        "line_number": 206,
+        "column_offset": 44,
+        "children": []
+      },
+      {
+        "name": "KeyBindings",
+        "type": "call",
+        "line_number": 208,
+        "column_offset": 17,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "_": {
+    "name": "_",
+    "type": "function",
+    "calls": [
+      {
+        "name": "PromptSession",
+        "type": "call",
+        "line_number": 214,
+        "column_offset": 22,
+        "children": []
+      },
+      {
+        "name": "print",
+        "type": "call",
+        "line_number": 230,
+        "column_offset": 8,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "add_to_input_history": {
+    "name": "add_to_input_history",
+    "type": "function",
+    "calls": [
+      {
+        "name": "FileHistory",
+        "type": "call",
+        "line_number": 237,
+        "column_offset": 8,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "get_input_history": {
+    "name": "get_input_history",
+    "type": "function",
+    "calls": [
+      {
+        "name": "FileHistory",
+        "type": "call",
+        "line_number": 243,
+        "column_offset": 13,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "user_input": {
+    "name": "user_input",
+    "type": "function",
+    "calls": [
+      {
+        "name": "dict",
+        "type": "call",
+        "line_number": 248,
+        "column_offset": 20,
+        "children": []
+      },
+      {
+        "name": "dict",
+        "type": "call",
+        "line_number": 248,
+        "column_offset": 84,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "ai_output": {
+    "name": "ai_output",
+    "type": "function",
+    "calls": [],
+    "children": []
+  },
+  "confirm_ask": {
+    "name": "confirm_ask",
+    "type": "function",
+    "calls": [
+      {
+        "name": "prompt",
+        "type": "call",
+        "line_number": 277,
+        "column_offset": 18,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "prompt_ask": {
+    "name": "prompt_ask",
+    "type": "function",
+    "calls": [
+      {
+        "name": "prompt",
+        "type": "call",
+        "line_number": 296,
+        "column_offset": 18,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "tool_error": {
+    "name": "tool_error",
+    "type": "function",
+    "calls": [
+      {
+        "name": "Text",
+        "type": "call",
+        "line_number": 312,
+        "column_offset": 18,
+        "children": []
+      },
+      {
+        "name": "dict",
+        "type": "call",
+        "line_number": 313,
+        "column_offset": 16,
+        "children": []
+      },
+      {
+        "name": "dict",
+        "type": "call",
+        "line_number": 313,
+        "column_offset": 80,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "tool_output": {
+    "name": "tool_output",
+    "type": "function",
+    "calls": [
+      {
+        "name": "list",
+        "type": "call",
+        "line_number": 323,
+        "column_offset": 23,
+        "children": []
+      },
+      {
+        "name": "map",
+        "type": "call",
+        "line_number": 323,
+        "column_offset": 28,
+        "children": []
+      },
+      {
+        "name": "dict",
+        "type": "call",
+        "line_number": 324,
+        "column_offset": 20,
+        "children": []
+      },
+      {
+        "name": "dict",
+        "type": "call",
+        "line_number": 324,
+        "column_offset": 86,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "append_chat_history": {
+    "name": "append_chat_history",
+    "type": "function",
+    "calls": [],
+    "children": []
+  },
+  "callback": {
+    "name": "callback",
+    "type": "function",
+    "calls": [
+      {
+        "name": "max",
+        "type": "call",
+        "line_number": 37,
+        "column_offset": 23,
+        "children": []
+      },
+      {
+        "name": "min",
+        "type": "call",
+        "line_number": 38,
+        "column_offset": 23,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "get_prompt": {
+    "name": "get_prompt",
+    "type": "function",
+    "calls": [
+      {
+        "name": "int",
+        "type": "call",
+        "line_number": 53,
+        "column_offset": 18,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "record_and_transcribe": {
+    "name": "record_and_transcribe",
+    "type": "function",
+    "calls": [],
+    "children": []
+  },
+  "raw_record_and_transcribe": {
+    "name": "raw_record_and_transcribe",
+    "type": "function",
+    "calls": [
+      {
+        "name": "prompt",
+        "type": "call",
+        "line_number": 77,
+        "column_offset": 12,
+        "children": []
+      },
+      {
+        "name": "open",
+        "type": "call",
+        "line_number": 83,
+        "column_offset": 13,
+        "children": []
+      },
+      {
+        "name": "ValueError",
+        "type": "call",
+        "line_number": 93,
+        "column_offset": 14,
+        "children": []
+      },
+      {
+        "name": "print",
+        "type": "call",
+        "line_number": 94,
+        "column_offset": 4,
+        "children": []
+      },
+      {
+        "name": "Voice",
+        "type": "call",
+        "line_number": 94,
+        "column_offset": 10,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "update_cur_messages": {
+    "name": "update_cur_messages",
+    "type": "function",
+    "calls": [
+      {
+        "name": "dict",
+        "type": "call",
+        "line_number": 55,
+        "column_offset": 16,
+        "children": []
+      },
+      {
+        "name": "dict",
+        "type": "call",
+        "line_number": 58,
+        "column_offset": 34,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "render_incremental_response": {
+    "name": "render_incremental_response",
+    "type": "function",
+    "calls": [
+      {
+        "name": "enumerate",
+        "type": "call",
+        "line_number": 76,
+        "column_offset": 27,
+        "children": []
+      },
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 84,
+        "column_offset": 30,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "live_diffs": {
+    "name": "live_diffs",
+    "type": "function",
+    "calls": [],
+    "children": []
+  },
+  "_update_files": {
+    "name": "_update_files",
+    "type": "function",
+    "calls": [
+      {
+        "name": "ValueError",
+        "type": "call",
+        "line_number": 113,
+        "column_offset": 18,
+        "children": []
+      },
+      {
+        "name": "set",
+        "type": "call",
+        "line_number": 121,
+        "column_offset": 17,
+        "children": []
+      },
+      {
+        "name": "ValueError",
+        "type": "call",
+        "line_number": 125,
+        "column_offset": 22,
+        "children": []
+      },
+      {
+        "name": "ValueError",
+        "type": "call",
+        "line_number": 129,
+        "column_offset": 22,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "get_arg": {
+    "name": "get_arg",
+    "type": "function",
+    "calls": [
+      {
+        "name": "ValueError",
+        "type": "call",
+        "line_number": 140,
+        "column_offset": 14,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "get_edits": {
+    "name": "get_edits",
+    "type": "function",
+    "calls": [
+      {
+        "name": "enumerate",
+        "type": "call",
+        "line_number": 43,
+        "column_offset": 23,
+        "children": []
+      },
+      {
+        "name": "Path",
+        "type": "call",
+        "line_number": 70,
+        "column_offset": 61,
+        "children": []
+      },
+      {
+        "name": "Path",
+        "type": "call",
+        "line_number": 71,
+        "column_offset": 32,
+        "children": []
+      },
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 76,
+        "column_offset": 25,
+        "children": []
+      },
+      {
+        "name": "ValueError",
+        "type": "call",
+        "line_number": 81,
+        "column_offset": 30,
+        "children": []
+      },
+      {
+        "name": "Path",
+        "type": "call",
+        "line_number": 100,
+        "column_offset": 29,
+        "children": []
+      },
+      {
+        "name": "set",
+        "type": "call",
+        "line_number": 107,
+        "column_offset": 15,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "apply_edits": {
+    "name": "apply_edits",
+    "type": "function",
+    "calls": [],
+    "children": []
+  },
+  "prep": {
+    "name": "prep",
+    "type": "function",
+    "calls": [],
+    "children": []
+  },
+  "perfect_or_whitespace": {
+    "name": "perfect_or_whitespace",
+    "type": "function",
+    "calls": [
+      {
+        "name": "perfect_replace",
+        "type": "call",
+        "line_number": 54,
+        "column_offset": 10,
+        "children": []
+      },
+      {
+        "name": "replace_part_with_missing_leading_whitespace",
+        "type": "call",
+        "line_number": 59,
+        "column_offset": 10,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "perfect_replace": {
+    "name": "perfect_replace",
+    "type": "function",
+    "calls": [
+      {
+        "name": "tuple",
+        "type": "call",
+        "line_number": 65,
+        "column_offset": 15,
+        "children": []
+      },
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 66,
+        "column_offset": 15,
+        "children": []
+      },
+      {
+        "name": "range",
+        "type": "call",
+        "line_number": 68,
+        "column_offset": 13,
+        "children": []
+      },
+      {
+        "name": "len",
         "type": "call",
         "line_number": 68,
         "column_offset": 19,
         "children": []
       },
       {
-        "name": "TfidfVectorizer",
+        "name": "tuple",
         "type": "call",
-        "line_number": 75,
+        "line_number": 69,
+        "column_offset": 20,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "replace_most_similar_chunk": {
+    "name": "replace_most_similar_chunk",
+    "type": "function",
+    "calls": [
+      {
+        "name": "prep",
+        "type": "call",
+        "line_number": 78,
+        "column_offset": 25,
+        "children": []
+      },
+      {
+        "name": "prep",
+        "type": "call",
+        "line_number": 79,
         "column_offset": 23,
         "children": []
       },
       {
-        "name": "cosine_similarity",
+        "name": "prep",
+        "type": "call",
+        "line_number": 80,
+        "column_offset": 29,
+        "children": []
+      },
+      {
+        "name": "perfect_or_whitespace",
         "type": "call",
         "line_number": 82,
+        "column_offset": 10,
+        "children": []
+      },
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 87,
+        "column_offset": 7,
+        "children": []
+      },
+      {
+        "name": "perfect_or_whitespace",
+        "type": "call",
+        "line_number": 89,
+        "column_offset": 14,
+        "children": []
+      },
+      {
+        "name": "try_dotdotdots",
+        "type": "call",
+        "line_number": 95,
+        "column_offset": 14,
+        "children": []
+      },
+      {
+        "name": "replace_closest_edit_distance",
+        "type": "call",
+        "line_number": 103,
+        "column_offset": 10,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "try_dotdotdots": {
+    "name": "try_dotdotdots",
+    "type": "function",
+    "calls": [
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 124,
+        "column_offset": 7,
+        "children": []
+      },
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 124,
+        "column_offset": 27,
+        "children": []
+      },
+      {
+        "name": "ValueError",
+        "type": "call",
+        "line_number": 125,
+        "column_offset": 14,
+        "children": []
+      },
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 127,
+        "column_offset": 7,
+        "children": []
+      },
+      {
+        "name": "all",
+        "type": "call",
+        "line_number": 132,
+        "column_offset": 21,
+        "children": []
+      },
+      {
+        "name": "range",
+        "type": "call",
+        "line_number": 132,
+        "column_offset": 70,
+        "children": []
+      },
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 132,
+        "column_offset": 79,
+        "children": []
+      },
+      {
+        "name": "ValueError",
+        "type": "call",
+        "line_number": 135,
+        "column_offset": 14,
+        "children": []
+      },
+      {
+        "name": "range",
+        "type": "call",
+        "line_number": 137,
+        "column_offset": 43,
+        "children": []
+      },
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 137,
+        "column_offset": 52,
+        "children": []
+      },
+      {
+        "name": "range",
+        "type": "call",
+        "line_number": 138,
+        "column_offset": 49,
+        "children": []
+      },
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 138,
+        "column_offset": 58,
+        "children": []
+      },
+      {
+        "name": "zip",
+        "type": "call",
+        "line_number": 140,
+        "column_offset": 12,
+        "children": []
+      },
+      {
+        "name": "ValueError",
+        "type": "call",
+        "line_number": 152,
+        "column_offset": 18,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "replace_part_with_missing_leading_whitespace": {
+    "name": "replace_part_with_missing_leading_whitespace",
+    "type": "function",
+    "calls": [
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 167,
+        "column_offset": 15,
+        "children": []
+      },
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 167,
         "column_offset": 24,
+        "children": []
+      },
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 168,
+        "column_offset": 8,
+        "children": []
+      },
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 168,
+        "column_offset": 17,
+        "children": []
+      },
+      {
+        "name": "min",
+        "type": "call",
+        "line_number": 171,
+        "column_offset": 19,
+        "children": []
+      },
+      {
+        "name": "min",
+        "type": "call",
+        "line_number": 172,
+        "column_offset": 22,
+        "children": []
+      },
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 177,
+        "column_offset": 21,
+        "children": []
+      },
+      {
+        "name": "range",
+        "type": "call",
+        "line_number": 179,
+        "column_offset": 13,
+        "children": []
+      },
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 179,
+        "column_offset": 19,
+        "children": []
+      },
+      {
+        "name": "match_but_for_leading_whitespace",
+        "type": "call",
+        "line_number": 180,
+        "column_offset": 22,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "match_but_for_leading_whitespace": {
+    "name": "match_but_for_leading_whitespace",
+    "type": "function",
+    "calls": [
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 195,
+        "column_offset": 10,
+        "children": []
+      },
+      {
+        "name": "all",
+        "type": "call",
+        "line_number": 198,
+        "column_offset": 11,
+        "children": []
+      },
+      {
+        "name": "range",
+        "type": "call",
+        "line_number": 198,
+        "column_offset": 74,
+        "children": []
+      },
+      {
+        "name": "set",
+        "type": "call",
+        "line_number": 202,
+        "column_offset": 10,
+        "children": []
+      },
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 203,
+        "column_offset": 25,
+        "children": []
+      },
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 203,
+        "column_offset": 47,
+        "children": []
+      },
+      {
+        "name": "range",
+        "type": "call",
+        "line_number": 204,
+        "column_offset": 17,
+        "children": []
+      },
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 208,
+        "column_offset": 7,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "replace_closest_edit_distance": {
+    "name": "replace_closest_edit_distance",
+    "type": "function",
+    "calls": [
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 222,
+        "column_offset": 25,
+        "children": []
+      },
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 223,
+        "column_offset": 24,
+        "children": []
+      },
+      {
+        "name": "range",
+        "type": "call",
+        "line_number": 225,
+        "column_offset": 18,
+        "children": []
+      },
+      {
+        "name": "range",
+        "type": "call",
+        "line_number": 226,
+        "column_offset": 17,
+        "children": []
+      },
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 226,
+        "column_offset": 23,
+        "children": []
+      },
+      {
+        "name": "SequenceMatcher",
+        "type": "call",
+        "line_number": 230,
+        "column_offset": 25,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "strip_quoted_wrapping": {
+    "name": "strip_quoted_wrapping",
+    "type": "function",
+    "calls": [
+      {
+        "name": "Path",
+        "type": "call",
+        "line_number": 269,
+        "column_offset": 41,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "do_replace": {
+    "name": "do_replace",
+    "type": "function",
+    "calls": [
+      {
+        "name": "strip_quoted_wrapping",
+        "type": "call",
+        "line_number": 283,
+        "column_offset": 18,
+        "children": []
+      },
+      {
+        "name": "strip_quoted_wrapping",
+        "type": "call",
+        "line_number": 284,
+        "column_offset": 17,
+        "children": []
+      },
+      {
+        "name": "Path",
+        "type": "call",
+        "line_number": 285,
+        "column_offset": 12,
+        "children": []
+      },
+      {
+        "name": "replace_most_similar_chunk",
+        "type": "call",
+        "line_number": 299,
+        "column_offset": 22,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "find_original_update_blocks": {
+    "name": "find_original_update_blocks",
+    "type": "function",
+    "calls": [
+      {
+        "name": "ValueError",
+        "type": "call",
+        "line_number": 332,
+        "column_offset": 22,
+        "children": []
+      },
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 342,
+        "column_offset": 23,
+        "children": []
+      },
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 344,
+        "column_offset": 23,
+        "children": []
+      },
+      {
+        "name": "ValueError",
+        "type": "call",
+        "line_number": 348,
+        "column_offset": 30,
+        "children": []
+      },
+      {
+        "name": "ValueError",
+        "type": "call",
+        "line_number": 355,
+        "column_offset": 26,
+        "children": []
+      },
+      {
+        "name": "ValueError",
+        "type": "call",
+        "line_number": 365,
+        "column_offset": 22,
+        "children": []
+      },
+      {
+        "name": "ValueError",
+        "type": "call",
+        "line_number": 373,
+        "column_offset": 22,
+        "children": []
+      },
+      {
+        "name": "ValueError",
+        "type": "call",
+        "line_number": 379,
+        "column_offset": 14,
+        "children": []
+      },
+      {
+        "name": "ValueError",
+        "type": "call",
+        "line_number": 382,
+        "column_offset": 14,
+        "children": []
+      },
+      {
+        "name": "ValueError",
+        "type": "call",
+        "line_number": 385,
+        "column_offset": 14,
+        "children": []
+      },
+      {
+        "name": "print",
+        "type": "call",
+        "line_number": 403,
+        "column_offset": 4,
         "children": []
       },
       {
         "name": "list",
         "type": "call",
-        "line_number": 92,
+        "line_number": 403,
+        "column_offset": 10,
+        "children": []
+      },
+      {
+        "name": "find_original_update_blocks",
+        "type": "call",
+        "line_number": 403,
+        "column_offset": 15,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "wrap_fence": {
+    "name": "wrap_fence",
+    "type": "function",
+    "calls": [],
+    "children": []
+  },
+  "create": {
+    "name": "create",
+    "type": "function",
+    "calls": [
+      {
+        "name": "OpenRouterModel",
+        "type": "call",
+        "line_number": 23,
+        "column_offset": 19,
+        "children": []
+      },
+      {
+        "name": "OpenAIModel",
+        "type": "call",
+        "line_number": 24,
+        "column_offset": 15,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "find_common_root": {
+    "name": "find_common_root",
+    "type": "function",
+    "calls": [
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 208,
+        "column_offset": 11,
+        "children": []
+      },
+      {
+        "name": "list",
+        "type": "call",
+        "line_number": 209,
+        "column_offset": 40,
+        "children": []
+      },
+      {
+        "name": "list",
+        "type": "call",
+        "line_number": 211,
+        "column_offset": 43,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "add_rel_fname": {
+    "name": "add_rel_fname",
+    "type": "function",
+    "calls": [],
+    "children": []
+  },
+  "get_abs_fnames_content": {
+    "name": "get_abs_fnames_content",
+    "type": "function",
+    "calls": [
+      {
+        "name": "list",
+        "type": "call",
+        "line_number": 235,
+        "column_offset": 21,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "choose_fence": {
+    "name": "choose_fence",
+    "type": "function",
+    "calls": [],
+    "children": []
+  },
+  "get_files_content": {
+    "name": "get_files_content",
+    "type": "function",
+    "calls": [],
+    "children": []
+  },
+  "get_files_messages": {
+    "name": "get_files_messages",
+    "type": "function",
+    "calls": [
+      {
+        "name": "dict",
+        "type": "call",
+        "line_number": 308,
+        "column_offset": 12,
+        "children": []
+      },
+      {
+        "name": "dict",
+        "type": "call",
+        "line_number": 309,
+        "column_offset": 12,
+        "children": []
+      },
+      {
+        "name": "dict",
+        "type": "call",
+        "line_number": 313,
+        "column_offset": 16,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "keyboard_interrupt": {
+    "name": "keyboard_interrupt",
+    "type": "function",
+    "calls": [],
+    "children": []
+  },
+  "summarize_start": {
+    "name": "summarize_start",
+    "type": "function",
+    "calls": [],
+    "children": []
+  },
+  "summarize_worker": {
+    "name": "summarize_worker",
+    "type": "function",
+    "calls": [],
+    "children": []
+  },
+  "summarize_end": {
+    "name": "summarize_end",
+    "type": "function",
+    "calls": [],
+    "children": []
+  },
+  "move_back_cur_messages": {
+    "name": "move_back_cur_messages",
+    "type": "function",
+    "calls": [
+      {
+        "name": "dict",
+        "type": "call",
+        "line_number": 387,
+        "column_offset": 16,
+        "children": []
+      },
+      {
+        "name": "dict",
+        "type": "call",
+        "line_number": 388,
+        "column_offset": 16,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "run_loop": {
+    "name": "run_loop",
+    "type": "function",
+    "calls": [],
+    "children": []
+  },
+  "fmt_system_reminder": {
+    "name": "fmt_system_reminder",
+    "type": "function",
+    "calls": [],
+    "children": []
+  },
+  "send_new_user_message": {
+    "name": "send_new_user_message",
+    "type": "function",
+    "calls": [
+      {
+        "name": "dict",
+        "type": "call",
+        "line_number": 419,
+        "column_offset": 12,
+        "children": []
+      },
+      {
+        "name": "dict",
+        "type": "call",
+        "line_number": 427,
+        "column_offset": 12,
+        "children": []
+      },
+      {
+        "name": "str",
+        "type": "call",
+        "line_number": 445,
+        "column_offset": 43,
+        "children": []
+      },
+      {
+        "name": "dict",
+        "type": "call",
+        "line_number": 475,
         "column_offset": 34,
         "children": []
       },
       {
         "name": "set",
         "type": "call",
-        "line_number": 92,
-        "column_offset": 39,
+        "line_number": 480,
+        "column_offset": 37,
+        "children": []
+      },
+      {
+        "name": "hasattr",
+        "type": "call",
+        "line_number": 488,
+        "column_offset": 17,
         "children": []
       }
     ],
+    "children": []
+  },
+  "check_for_file_mentions": {
+    "name": "check_for_file_mentions",
+    "type": "function",
+    "calls": [
+      {
+        "name": "set",
+        "type": "call",
+        "line_number": 512,
+        "column_offset": 16,
+        "children": []
+      },
+      {
+        "name": "set",
+        "type": "call",
+        "line_number": 515,
+        "column_offset": 16,
+        "children": []
+      },
+      {
+        "name": "set",
+        "type": "call",
+        "line_number": 519,
+        "column_offset": 16,
+        "children": []
+      },
+      {
+        "name": "set",
+        "type": "call",
+        "line_number": 523,
+        "column_offset": 31,
+        "children": []
+      },
+      {
+        "name": "str",
+        "type": "call",
+        "line_number": 527,
+        "column_offset": 41,
+        "children": []
+      },
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 535,
+        "column_offset": 15,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "send": {
+    "name": "send",
+    "type": "function",
+    "calls": [
+      {
+        "name": "dict",
+        "type": "call",
+        "line_number": 557,
+        "column_offset": 46,
+        "children": []
+      },
+      {
+        "name": "send_with_retries",
+        "type": "call",
+        "line_number": 561,
+        "column_offset": 38,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "show_send_output": {
+    "name": "show_send_output",
+    "type": "function",
+    "calls": [
+      {
+        "name": "print",
+        "type": "call",
+        "line_number": 584,
+        "column_offset": 12,
+        "children": []
+      },
+      {
+        "name": "dict",
+        "type": "call",
+        "line_number": 598,
+        "column_offset": 20,
+        "children": []
+      },
+      {
+        "name": "Exception",
+        "type": "call",
+        "line_number": 608,
+        "column_offset": 18,
+        "children": []
+      },
+      {
+        "name": "hasattr",
+        "type": "call",
+        "line_number": 611,
+        "column_offset": 11,
+        "children": []
+      },
+      {
+        "name": "Markdown",
+        "type": "call",
+        "line_number": 624,
+        "column_offset": 24,
+        "children": []
+      },
+      {
+        "name": "Text",
+        "type": "call",
+        "line_number": 628,
+        "column_offset": 24,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "show_send_output_stream": {
+    "name": "show_send_output_stream",
+    "type": "function",
+    "calls": [
+      {
+        "name": "Live",
+        "type": "call",
+        "line_number": 638,
+        "column_offset": 19,
+        "children": []
+      },
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 645,
+        "column_offset": 19,
+        "children": []
+      },
+      {
+        "name": "hasattr",
+        "type": "call",
+        "line_number": 649,
+        "column_offset": 20,
+        "children": []
+      },
+      {
+        "name": "ExhaustedContextWindow",
+        "type": "call",
+        "line_number": 652,
+        "column_offset": 26,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "live_incremental_response": {
+    "name": "live_incremental_response",
+    "type": "function",
+    "calls": [
+      {
+        "name": "Markdown",
+        "type": "call",
+        "line_number": 687,
+        "column_offset": 13,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "get_inchat_relative_files": {
+    "name": "get_inchat_relative_files",
+    "type": "function",
+    "calls": [
+      {
+        "name": "sorted",
+        "type": "call",
+        "line_number": 698,
+        "column_offset": 15,
+        "children": []
+      },
+      {
+        "name": "set",
+        "type": "call",
+        "line_number": 698,
+        "column_offset": 22,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "get_all_relative_files": {
+    "name": "get_all_relative_files",
+    "type": "function",
+    "calls": [
+      {
+        "name": "sorted",
+        "type": "call",
+        "line_number": 706,
+        "column_offset": 15,
+        "children": []
+      },
+      {
+        "name": "set",
+        "type": "call",
+        "line_number": 706,
+        "column_offset": 22,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "get_all_abs_files": {
+    "name": "get_all_abs_files",
+    "type": "function",
+    "calls": [],
+    "children": []
+  },
+  "get_last_modified": {
+    "name": "get_last_modified",
+    "type": "function",
+    "calls": [
+      {
+        "name": "Path",
+        "type": "call",
+        "line_number": 714,
+        "column_offset": 17,
+        "children": []
+      },
+      {
+        "name": "Path",
+        "type": "call",
+        "line_number": 714,
+        "column_offset": 64,
+        "children": []
+      },
+      {
+        "name": "max",
+        "type": "call",
+        "line_number": 717,
+        "column_offset": 15,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "get_addable_relative_files": {
+    "name": "get_addable_relative_files",
+    "type": "function",
+    "calls": [
+      {
+        "name": "set",
+        "type": "call",
+        "line_number": 720,
+        "column_offset": 15,
+        "children": []
+      },
+      {
+        "name": "set",
+        "type": "call",
+        "line_number": 720,
+        "column_offset": 52,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "check_for_dirty_commit": {
+    "name": "check_for_dirty_commit",
+    "type": "function",
+    "calls": [
+      {
+        "name": "Path",
+        "type": "call",
+        "line_number": 730,
+        "column_offset": 16,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "allowed_to_edit": {
+    "name": "allowed_to_edit",
+    "type": "function",
+    "calls": [
+      {
+        "name": "Path",
+        "type": "call",
+        "line_number": 748,
+        "column_offset": 15,
+        "children": []
+      },
+      {
+        "name": "Path",
+        "type": "call",
+        "line_number": 754,
+        "column_offset": 16,
+        "children": []
+      },
+      {
+        "name": "Path",
+        "type": "call",
+        "line_number": 755,
+        "column_offset": 16,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "prepare_to_edit": {
+    "name": "prepare_to_edit",
+    "type": "function",
+    "calls": [
+      {
+        "name": "dict",
+        "type": "call",
+        "line_number": 784,
+        "column_offset": 15,
+        "children": []
+      },
+      {
+        "name": "set",
+        "type": "call",
+        "line_number": 786,
+        "column_offset": 40,
+        "children": []
+      },
+      {
+        "name": "set",
+        "type": "call",
+        "line_number": 800,
+        "column_offset": 40,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "update_files": {
+    "name": "update_files",
+    "type": "function",
+    "calls": [
+      {
+        "name": "set",
+        "type": "call",
+        "line_number": 808,
+        "column_offset": 15,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "apply_updates": {
+    "name": "apply_updates",
+    "type": "function",
+    "calls": [
+      {
+        "name": "str",
+        "type": "call",
+        "line_number": 820,
+        "column_offset": 35,
+        "children": []
+      },
+      {
+        "name": "print",
+        "type": "call",
+        "line_number": 827,
+        "column_offset": 12,
+        "children": []
+      },
+      {
+        "name": "print",
+        "type": "call",
+        "line_number": 828,
+        "column_offset": 12,
+        "children": []
+      },
+      {
+        "name": "str",
+        "type": "call",
+        "line_number": 833,
+        "column_offset": 29,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "parse_partial_args": {
+    "name": "parse_partial_args",
+    "type": "function",
+    "calls": [],
+    "children": []
+  },
+  "get_context_from_history": {
+    "name": "get_context_from_history",
+    "type": "function",
+    "calls": [],
+    "children": []
+  },
+  "auto_commit": {
+    "name": "auto_commit",
+    "type": "function",
+    "calls": [],
+    "children": []
+  },
+  "dirty_commit": {
+    "name": "dirty_commit",
+    "type": "function",
+    "calls": [],
+    "children": []
+  },
+  "check_model_availability": {
+    "name": "check_model_availability",
+    "type": "function",
+    "calls": [],
+    "children": []
+  },
+  "do_live_diff": {
+    "name": "do_live_diff",
+    "type": "function",
+    "calls": [
+      {
+        "name": "Path",
+        "type": "call",
+        "line_number": 130,
+        "column_offset": 11,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "edit_format_for_model": {
+    "name": "edit_format_for_model",
+    "type": "function",
+    "calls": [
+      {
+        "name": "any",
+        "type": "call",
+        "line_number": 43,
+        "column_offset": 7,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "__str__": {
+    "name": "__str__",
+    "type": "function",
+    "calls": [],
+    "children": []
+  },
+  "strong_model": {
+    "name": "strong_model",
+    "type": "function",
+    "calls": [],
+    "children": []
+  },
+  "weak_model": {
+    "name": "weak_model",
+    "type": "function",
+    "calls": [],
+    "children": []
+  },
+  "commit_message_models": {
+    "name": "commit_message_models",
+    "type": "function",
+    "calls": [],
+    "children": []
+  },
+  "is_gpt4": {
+    "name": "is_gpt4",
+    "type": "function",
+    "calls": [],
+    "children": []
+  },
+  "is_gpt35": {
+    "name": "is_gpt35",
+    "type": "function",
+    "calls": [],
     "children": []
   }
 }

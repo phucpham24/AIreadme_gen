@@ -38,7 +38,7 @@ class CallHierarchyVisitor(ast.NodeVisitor):
         self.generic_visit(node)
 
 # Specify the directory where your codebase is located
-codebase_directory = '/home/phucsaiyan/Documents/stage/clonechatgpt'
+codebase_directory = '/home/phucsaiyan/Documents/aider/aider/aider'
 
 # Initialize an empty dictionary to store the call hierarchy for all files
 full_call_hierarchy = {}
