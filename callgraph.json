@@ -58,83 +58,8 @@
         "line_number": 36,
         "column_offset": 9,
         "children": []
-      },
-      {
-        "name": "generate_ctags_and_convert",
-        "type": "call",
-        "line_number": 48,
-        "column_offset": 0,
-        "children": []
       }
     ],
-    "children": []
-  },
-  "__init__": {
-    "name": "__init__",
-    "type": "function",
-    "calls": [],
-    "children": []
-  },
-  "ask_question": {
-    "name": "ask_question",
-    "type": "function",
-    "calls": [
-      {
-        "name": "search_documents",
-        "type": "call",
-        "line_number": 18,
-        "column_offset": 20,
-        "children": []
-      },
-      {
-        "name": "format_documents",
-        "type": "call",
-        "line_number": 20,
-        "column_offset": 25,
-        "children": []
-      }
-    ],
-    "children": []
-  },
-  "extract_functions_from_ctags": {
-    "name": "extract_functions_from_ctags",
-    "type": "function",
-    "calls": [
-      {
-        "name": "open",
-        "type": "call",
-        "line_number": 20,
-        "column_offset": 9,
-        "children": []
-      },
-      {
-        "name": "len",
-        "type": "call",
-        "line_number": 23,
-        "column_offset": 15,
-        "children": []
-      }
-    ],
-    "children": []
-  },
-  "read_call_hierarchy_json": {
-    "name": "read_call_hierarchy_json",
-    "type": "function",
-    "calls": [
-      {
-        "name": "open",
-        "type": "call",
-        "line_number": 30,
-        "column_offset": 9,
-        "children": []
-      }
-    ],
-    "children": []
-  },
-  "generate_text_with_splitter": {
-    "name": "generate_text_with_splitter",
-    "type": "function",
-    "calls": [],
     "children": []
   },
   "main": {
@@ -284,6 +209,74 @@
     ],
     "children": []
   },
+  "__init__": {
+    "name": "__init__",
+    "type": "function",
+    "calls": [],
+    "children": []
+  },
+  "ask_question": {
+    "name": "ask_question",
+    "type": "function",
+    "calls": [
+      {
+        "name": "search_documents",
+        "type": "call",
+        "line_number": 18,
+        "column_offset": 20,
+        "children": []
+      },
+      {
+        "name": "format_documents",
+        "type": "call",
+        "line_number": 20,
+        "column_offset": 25,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "extract_functions_from_ctags": {
+    "name": "extract_functions_from_ctags",
+    "type": "function",
+    "calls": [
+      {
+        "name": "open",
+        "type": "call",
+        "line_number": 20,
+        "column_offset": 9,
+        "children": []
+      },
+      {
+        "name": "len",
+        "type": "call",
+        "line_number": 23,
+        "column_offset": 15,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "read_call_hierarchy_json": {
+    "name": "read_call_hierarchy_json",
+    "type": "function",
+    "calls": [
+      {
+        "name": "open",
+        "type": "call",
+        "line_number": 30,
+        "column_offset": 9,
+        "children": []
+      }
+    ],
+    "children": []
+  },
+  "generate_text_with_splitter": {
+    "name": "generate_text_with_splitter",
+    "type": "function",
+    "calls": [],
+    "children": []
+  },
   "clean_and_tokenize": {
     "name": "clean_and_tokenize",
     "type": "function",
@@ -329,10 +322,31 @@
         "children": []
       },
       {
-        "name": "jsonize_code",
+        "name": "print",
         "type": "call",
         "line_number": 19,
-        "column_offset": 0,
+        "column_offset": 8,
+        "children": []
+      },
+      {
+        "name": "print",
+        "type": "call",
+        "line_number": 21,
+        "column_offset": 8,
+        "children": []
+      },
+      {
+        "name": "print",
+        "type": "call",
+        "line_number": 24,
+        "column_offset": 8,
+        "children": []
+      },
+      {
+        "name": "print",
+        "type": "call",
+        "line_number": 26,
+        "column_offset": 8,
         "children": []
       }
     ],
@@ -453,13 +467,6 @@
         "line_number": 72,
         "column_offset": 8,
         "children": []
-      },
-      {
-        "name": "generate_call_hierarchy",
-        "type": "call",
-        "line_number": 79,
-        "column_offset": 0,
-        "children": []
       }
     ],
     "children": []
@@ -473,20 +480,6 @@
         "type": "call",
         "line_number": 5,
         "column_offset": 9,
-        "children": []
-      },
-      {
-        "name": "print",
-        "type": "call",
-        "line_number": 19,
-        "column_offset": 0,
-        "children": []
-      },
-      {
-        "name": "extract_function_names_from_json",
-        "type": "call",
-        "line_number": 19,
-        "column_offset": 6,
         "children": []
       }
     ],
