@@ -13,11 +13,11 @@ AI GitHub Reader with ChatGPT-4 is a powerful tool that allows you to explore yo
 2. Run the script: `app.py`
 
 ## Workflow Steps
-1. **Codebase Analysis**: The application begins by analyzing the codebase. It creates a call hierarchy and utilizes ctags to identify all the functions present in the code. This step is crucial for understanding the structure of the code and the functions that need docstrings.
+1. **Codebase Analysis**: The application begins by analyzing the codebase. It creates a **call hierarchy** and utilizes **ctags** to identify all the functions present in the code. This step is crucial for understanding the structure of the code and the functions that need docstrings.
 
-2. **Tokenization and Similarity**: Next, the existing documentation is parsed and splitted all the code and documents by LlamaIndex, tokenizes them into vectors, and compares the similarity between these tokens and a given question. This helps in understanding the context and relevance of the question to the code.
+2. **Tokenization and Similarity**: Next, the existing documentation is parsed and splitted all the code and documents by **LlamaIndex**, tokenizes them into vectors, and compares the similarity between these tokens and a given question. This helps in understanding the context and relevance of the question to the code.
 
-3. **OpenAI API Integration**: The application then connects to the OpenAI API. It sends the function, function details, and code extracts to query the API with the specific question related to docstring generation. This question typically asks for a description of what the function does and the parameters it accepts.
+3. **OpenAI API Integration**: The application then connects to the **OpenAI API**. It sends the function, function details, and code extracts to query the API with the specific question related to docstring generation. This question typically asks for a description of what the function does and the parameters it accepts.
 
 4. **Docstring Addition**: After receiving responses from the OpenAI API, the application automatically adds the generated docstring to each function in the codebase. This enhances code documentation, making it more accessible and understandable.
 
